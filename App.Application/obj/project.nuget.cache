@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vR9qimA12eqx4CBP66Lkf4qBCJksvS1KKdmDA1MAsVzVcgLnUvpFU7N0XfLeG8kvzX0jjZJQNemmLOtzuhHmkw==",
+  "dgSpecHash": "bOXwc+FLNG3cwgenmZs08aSploCOLVSxHCvD72/4b0PPMixDjNIttN4Xs9uV5CZHQxZzFgsI/DSxnmOQVkJ9gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\miche\\source\\repos\\App\\App.Application\\App.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\miche\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",
+    "C:\\Users\\miche\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
