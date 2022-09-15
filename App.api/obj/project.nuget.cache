@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F/UaMitKkZCQv8uTsOufLBhQYA7AsDcvxm3u3v6pq6dEXsRg9ra1QjzemrwKd3fzXxw5yvU83hYBNmHTDMLuIQ==",
+  "dgSpecHash": "6IA69HsaPw3fpXI7yLopsSm6IXciFi/EebruCZvWfysNZhqPgDLuiwdAJE/6RWsGT6y4C/FSx9+2RJfTdvGLxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miche\\source\\repos\\App\\App.api\\App.api.csproj",
+  "projectFilePath": "C:\\Users\\miche\\source\\repos\\App\\App.Api\\App.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miche\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
@@ -22,6 +22,7 @@
     "C:\\Users\\miche\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\miche\\.nuget\\packages\\newtonsoft.json.encryption\\2.2.0\\newtonsoft.json.encryption.2.2.0.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.6\\npgsql.entityframeworkcore.postgresql.6.0.6.nupkg.sha512",
     "C:\\Users\\miche\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

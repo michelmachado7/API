@@ -296,6 +296,22 @@
           }
         }
       },
+      "Newtonsoft.Json.Encryption/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.Encryption.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Encryption.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Npgsql/6.0.6": {
         "type": "package",
         "dependencies": {
@@ -444,18 +460,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "App.Application/1.0.0": {
+      "App.Aplicattion/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.9",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "compile": {
-          "bin/placeholder/App.Application.dll": {}
+          "bin/placeholder/App.Aplicattion.dll": {}
         },
         "runtime": {
-          "bin/placeholder/App.Application.dll": {}
+          "bin/placeholder/App.Aplicattion.dll": {}
         }
       },
       "App.Domain/1.0.0": {
@@ -471,17 +486,17 @@
           "bin/placeholder/App.Domain.dll": {}
         }
       },
-      "App.Infrastructure/1.0.0": {
+      "App.Infrasctructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "compile": {
-          "bin/placeholder/App.Infrastructure.dll": {}
+          "bin/placeholder/App.Infrasctructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/App.Infrastructure.dll": {}
+          "bin/placeholder/App.Infrasctructure.dll": {}
         }
       },
       "App.Persistence/1.0.0": {
@@ -887,6 +902,20 @@
         "packageIcon.png"
       ]
     },
+    "Newtonsoft.Json.Encryption/2.2.0": {
+      "sha512": "C4+uGZVNVf+2tUDYAb8ctt9OkxY72BGw8jTE4Cfs2vuDjyfGT5+7ffO8mxL/C1zhZCFqt4ipxs6FesMl0eUs0w==",
+      "type": "package",
+      "path": "newtonsoft.json.encryption/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/Newtonsoft.Json.Encryption.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.Encryption.xml",
+        "newtonsoft.json.encryption.2.2.0.nupkg.sha512",
+        "newtonsoft.json.encryption.nuspec"
+      ]
+    },
     "Npgsql/6.0.6": {
       "sha512": "IIwnoJp0sFkhAydT/KKe/0NhlJKhYPIrXSE95AuU/2dqHNI9alxvjClJSGL+QE8NGqq1SFn+NenxVtm/JYsrJg==",
       "type": "package",
@@ -1078,20 +1107,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "App.Application/1.0.0": {
+    "App.Aplicattion/1.0.0": {
       "type": "project",
-      "path": "../App.Application/App.Application.csproj",
-      "msbuildProject": "../App.Application/App.Application.csproj"
+      "path": "../App.Aplicattion/App.Aplicattion.csproj",
+      "msbuildProject": "../App.Aplicattion/App.Aplicattion.csproj"
     },
     "App.Domain/1.0.0": {
       "type": "project",
       "path": "../App.Domain/App.Domain.csproj",
       "msbuildProject": "../App.Domain/App.Domain.csproj"
     },
-    "App.Infrastructure/1.0.0": {
+    "App.Infrasctructure/1.0.0": {
       "type": "project",
-      "path": "../App.Infrastructure/App.Infrastructure.csproj",
-      "msbuildProject": "../App.Infrastructure/App.Infrastructure.csproj"
+      "path": "../App.Infrasctructure/App.Infrasctructure.csproj",
+      "msbuildProject": "../App.Infrasctructure/App.Infrasctructure.csproj"
     },
     "App.Persistence/1.0.0": {
       "type": "project",
@@ -1101,11 +1130,12 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "App.Application >= 1.0.0",
-      "App.Infrastructure >= 1.0.0",
+      "App.Aplicattion >= 1.0.0",
+      "App.Infrasctructure >= 1.0.0",
       "App.Persistence >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.9",
       "Newtonsoft.Json >= 13.0.1",
+      "Newtonsoft.Json.Encryption >= 2.2.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1115,11 +1145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miche\\source\\repos\\App\\App.api\\App.api.csproj",
-      "projectName": "App.api",
-      "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.api\\App.api.csproj",
+      "projectUniqueName": "C:\\Users\\miche\\source\\repos\\App\\App.Api\\App.Api.csproj",
+      "projectName": "App.Api",
+      "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Api\\App.Api.csproj",
       "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.api\\obj\\",
+      "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1136,11 +1166,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\miche\\source\\repos\\App\\App.Application\\App.Application.csproj": {
-              "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Application\\App.Application.csproj"
+            "C:\\Users\\miche\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
+              "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj"
             },
-            "C:\\Users\\miche\\source\\repos\\App\\App.Infrastructure\\App.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrastructure\\App.Infrastructure.csproj"
+            "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
+              "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj"
             },
             "C:\\Users\\miche\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj": {
               "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj"
@@ -1167,6 +1197,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "Newtonsoft.Json.Encryption": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

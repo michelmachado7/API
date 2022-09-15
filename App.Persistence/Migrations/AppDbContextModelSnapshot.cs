@@ -44,6 +44,36 @@ namespace App.Persistence.Migrations
 
                     b.ToTable("Cidades");
                 });
+
+            modelBuilder.Entity("App.Domain.Entities.Pessoa", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Idade")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pessoas");
+                });
 #pragma warning restore 612, 618
         }
     }

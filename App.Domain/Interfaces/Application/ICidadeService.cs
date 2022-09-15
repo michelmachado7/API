@@ -10,9 +10,11 @@ namespace App.Domain.Interfaces.Application
     public interface ICidadeService
     {
         Cidade BuscaPorCep(string cep);
-        void Remover(Guid id);
-        void Salvar(Cidade obj);
-        List<Cidade> ListaCidades(string cep, string nome);
 
+        void Remover(Guid id);
+
+        void Salvar(Cidade obj);
+
+        List<Cidade>ListaCidades(string cep, string nome);
     }
 }

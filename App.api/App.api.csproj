@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -12,12 +12,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json.Encryption" Version="2.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\App.Application\App.Application.csproj" />
-    <ProjectReference Include="..\App.Infrastructure\App.Infrastructure.csproj" />
+    <ProjectReference Include="..\App.Aplicattion\App.Aplicattion.csproj" />
+    <ProjectReference Include="..\App.Infrasctructure\App.Infrasctructure.csproj" />
     <ProjectReference Include="..\App.Persistence\App.Persistence.csproj" />
   </ItemGroup>
 

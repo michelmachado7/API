@@ -13,8 +13,7 @@ using Microsoft.AspNetCore.Http.Features;
 using Microsoft.OpenApi.Models;
 using App.Persistence;
 using Newtonsoft.Json;
-using App.Application;
-
+using App.Aplicattion;
 
 namespace App.API
 {
@@ -63,10 +62,9 @@ namespace App.API
             services.AddCors();
             services.AddOptions();
 
-            Persistence.DependencyInjetionConfig.Inject(services);
-            Application.DependencyInjectConfig.Inject(services);
-            Infrastructure.DependencyInjectConfig.Inject(services);
-           
+            Persistence.DependencyInjectionConfig.Inject(services);
+            Aplicattion.DependencyInjectionConfig.Inject(services);
+            Infrasctructure.DependencyInjectionConfig.Inject(services);
         }
 
         public void Configure(IApplicationBuilder Autenticador, IWebHostEnvironment env)

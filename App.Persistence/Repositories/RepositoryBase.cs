@@ -1,11 +1,7 @@
 ﻿using App.Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Data;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App.Persistence.Repositories
 {
@@ -13,15 +9,17 @@ namespace App.Persistence.Repositories
     {
         public DbContext _dbContextEntity { get; set; }
         public DbSet<TEntity> _dbSetEntity { get; set; }
+
         public RepositoryBase(AppDbContext dbContext)
         {
             _dbContextEntity = dbContext;
             _dbContextEntity.ChangeTracker.AutoDetectChangesEnabled = false;
             _dbSetEntity = dbContext.Set<TEntity>();
         }
+
         public DbContext Context()
         {
-          return _dbContextEntity;
+            return _dbContextEntity;
         }
 
         public IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> where)
@@ -33,9 +31,9 @@ namespace App.Persistence.Repositories
         {
             if ((Guid)obj.GetType().GetProperty("Id").GetValue(obj, null) != Guid.Empty)
             {
-                _dbContextEntity.Update(obj);
-            }
+                _dbSetEntity.Update(obj);
 
+            }
             else
             {
                 _dbSetEntity.Add(obj);
@@ -49,7 +47,7 @@ namespace App.Persistence.Repositories
             {
                 try
                 {
-                written = _dbContextEntity.SaveChanges();
+                    written = _dbContextEntity.SaveChanges();
                 }
                 catch (DbUpdateConcurrencyException ex)
                 {
@@ -59,12 +57,13 @@ namespace App.Persistence.Repositories
                     }
                 }
             }
+
             return written;
         }
 
         public void Update(TEntity obj)
         {
-            _dbContextEntity.Update(obj);
+            _dbSetEntity.Update(obj);
         }
     }
 }

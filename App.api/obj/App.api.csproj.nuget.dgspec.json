@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miche\\source\\repos\\App\\App.api\\App.api.csproj": {}
+    "C:\\Users\\miche\\source\\repos\\App\\App.Api\\App.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miche\\source\\repos\\App\\App.api\\App.api.csproj": {
+    "C:\\Users\\miche\\source\\repos\\App\\App.Api\\App.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\App\\App.api\\App.api.csproj",
-        "projectName": "App.api",
-        "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.api\\App.api.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\App\\App.Api\\App.Api.csproj",
+        "projectName": "App.Api",
+        "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Api\\App.Api.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.api\\obj\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\miche\\source\\repos\\App\\App.Application\\App.Application.csproj": {
-                "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Application\\App.Application.csproj"
+              "C:\\Users\\miche\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
+                "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj"
               },
-              "C:\\Users\\miche\\source\\repos\\App\\App.Infrastructure\\App.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrastructure\\App.Infrastructure.csproj"
+              "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
+                "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj"
               },
               "C:\\Users\\miche\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj": {
                 "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj"
@@ -59,6 +59,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Newtonsoft.Json.Encryption": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -88,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\miche\\source\\repos\\App\\App.Application\\App.Application.csproj": {
+    "C:\\Users\\miche\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\App\\App.Application\\App.Application.csproj",
-        "projectName": "App.Application",
-        "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Application\\App.Application.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj",
+        "projectName": "App.Aplicattion",
+        "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.Application\\obj\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.Aplicattion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,10 +128,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Abstractions": {
-              "target": "Package",
-              "version": "[6.0.9, )"
-            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -214,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\miche\\source\\repos\\App\\App.Infrastructure\\App.Infrastructure.csproj": {
+    "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\App\\App.Infrastructure\\App.Infrastructure.csproj",
-        "projectName": "App.Infrastructure",
-        "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrastructure\\App.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
+        "projectName": "App.Infrasctructure",
+        "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
