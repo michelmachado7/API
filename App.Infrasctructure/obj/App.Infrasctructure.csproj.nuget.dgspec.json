@@ -11,7 +11,7 @@
         "projectName": "App.Infrasctructure",
         "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\Source\\Repos\\App\\App.Infrasctructure\\obj\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.Infrasctructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",

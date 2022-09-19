@@ -11,7 +11,7 @@
         "projectName": "App.Common",
         "projectPath": "C:\\Users\\miche\\source\\repos\\App\\App.Common\\App.Common.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\Source\\Repos\\App\\App.Common\\obj\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\App\\App.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
